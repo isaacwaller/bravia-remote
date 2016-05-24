@@ -1,0 +1,14 @@
+{
+  "name": "bravia-remote",
+  "version": "1.0.0",
+  "description": "windows remote for bravia",
+  "main": "remote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.2"
+  }
+}
