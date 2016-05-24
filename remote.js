@@ -7,7 +7,7 @@ bravia.mac = "D8:D4:3C:A9:97:78";
 
 var lastPressTime = new Date().getTime();
 function pressHandler(command) {
-    if ((new Date().getTime() - lastPressTime) > 80) {
+    if ((new Date().getTime() - lastPressTime) > 90) {
         bravia.exec(command);
         lastPressTime = new Date().getTime();
     }
