@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron-prebuilt": "^1.1.2"
+  },
+  "dependencies": {
+    "bravia": "git+https://github.com/isaacwaller/bravia.git"
   }
 }
